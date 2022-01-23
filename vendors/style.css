@@ -50,7 +50,6 @@ body{
 
 .event-navbar{
     padding: 1em 0;
-    background-color: #F3F1EF;
 }
 
 /* ----banner part-----  */
@@ -84,6 +83,11 @@ body{
     color: #868F55 ;
 }
 
+/* --planner ---  */
+
+.weding-planer{
+    margin-top: 10%;
+}
 
 /* blog part  */
 
