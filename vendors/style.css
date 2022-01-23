@@ -1,0 +1,176 @@
+/* --------------------------------------------------------
+----------------important items-------------------------
+
+
+font-family: 'Courgette',cursive;
+font-family: 'Poppins',sans-serif;
+font-family: 'Satisfy',cursive;
+
+color: 
+#868F55
+#A3AD71
+#CBB8A7
+#F3F1EF
+
+
+-------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200;300;400;500;700&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.section-size{
+    padding: 7em;
+}
+
+.section-title{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* event navbar  */
+
+.event-navbar .event-title{
+    font-family: 'Courgette',cursive;
+    font-size: 2em;
+    color: #000;
+}
+
+.event-navbar{
+    padding: 1.5em 0;
+}
+
+/* ----banner part-----  */
+
+.banner-info{
+    margin-bottom: 2em;
+}
+.banner-info h4{
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 2.5em;
+}
+
+.banner-info p{
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    color: #F3F1EF;
+    background-color: #868F55;
+    transition: 0.4s;
+}
+
+.btn a:hover{
+    background-color: #F3F1EF;
+    color: #868F55 ;
+}
+
+
+/* our Package  */
+.packages .card-body .card-head{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.card-head h3{
+    font-size: 2.5em;
+    color: #A3AD71;
+}
+
+.card-head h4{
+    font-family: 'Satisfy',
+    cursive;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.card-head p{
+    font-size: 14px;
+    color: #CBB8A7;
+}
+
+.package-list li{
+    list-style: none;
+    margin-left: 0;
+}
+
+.check-list{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.package-list li i{
+    margin-right:10px;
+    color: #868F55;
+}
+
+.package-list li p{
+    display: inline;
+}
+
+.plan {
+    background-color: #868F55;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.plan a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.plan:hover{
+    background-color: #CBB8A7;
+}
+
+.card{
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow : 0 8px 24px #868F55;
+}
+
+.off{
+    position: relative;
+}
+
+.off .card{
+    background-color: #CBB8A7;
+}
+
+.off .card h3,
+.off .card li i,
+.off .card .card-head p{
+    color: #F3F1EF;
+}
+
+.sale{
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #868F55;
+    color: #F3F1EF;
+    border-radius: 50%;
+    padding: 10px 5px 5px;
+}

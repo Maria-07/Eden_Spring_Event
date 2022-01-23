@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden Spring Event</title>
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font-awesome link -->
+    <script src="https://kit.fontawesome.com/0fd961ee35.js" crossorigin="anonymous"></script>
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="./vendors/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light event-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand event-title" href="#">Eden <span style="color: #B4A593;"> Spring
+                        </span>Event</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse event-menu" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- banner part  -->
+
+        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./resources/banner-image/banner-01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <div class="banner-info">
+                            <h4>TO KNOW US IS TO LOVE US!</h4>
+                            <p>We would love to meet up and chat about how we can make YOUR DREAM wedding happen!</p>
+                            <div class="btn">
+                                <a href="#" class="rounded rounded-2 fw-bold">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./resources/banner-image/banner-3-01-01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-info">
+                            <h4>YOUR PERSONAL DREAM MAKER</h4>
+                            <p>We believe that it is all about the BIG DREAMS and the small details!</p>
+                            <div class="btn">
+                                <a href="#" class="rounded rounded-2 fw-bold">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/banner-image/banner-02-01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-info">
+                            <h4>DESTINATION WEDDING PLANNER</h4>
+                            <p>We believe that it is all about the BIG DREAMS and the small details!</p>
+                            <div class="btn">
+                                <a href="#" class="rounded rounded-2 fw-bold">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/banner-image/banner-4-01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-info">
+                            <h4>TO KNOW US IS TO LOVE US!</h4>
+                            <p>No matter your dreams - we can assist you in planning your PWE WEDDINGS & EVENTS.</p>
+                            <div class="btn">
+                                <a href="#" class="rounded rounded-2 fw-bold">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- our packages  -->
+
+        <section class="packages section-size">
+            <div class="container">
+                <h2 class="section-title">
+                    Our Packages
+                </h2>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card rounded rounded-3  roundedh-100 shadow pt-3">
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>$399</h3>
+                                    <h4>Bouquets</h4>
+                                    <p class="card-text">Bridal Bouquets, Bridesmaids and Bouquets Corsages Boutonnieres
+                                    </p>
+                                </div>
+
+                                <ul class="package-list">
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>limited space access</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>event support</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Secuirty facility</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Decoration design</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Per day bill</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="card-footer plan">
+                                <a href="#">Choose plan now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 off">
+                        <div class="card rounded rounded-3  roundedh-100 shadow pt-3">
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>$500</h3>
+                                    <h4>wedding</h4>
+                                    <p class="card-text">For weddings with basic plan
+                                        and limited item
+                                    </p>
+                                </div>
+
+                                <div class="sale">
+                                    <p>-20%</p>
+                                </div>
+
+                                <ul class="package-list">
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>limited space access</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>event support</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Secuirty facility</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Decoration design</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Per day bill</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="card-footer plan">
+                                <a href="#">Choose plan now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card rounded rounded-3  h-100 shadow pt-3">
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>$899</h3>
+                                    <h4>Birthday</h4>
+                                    <p class="card-text">For most weddings with premium plans
+                                    </p>
+                                </div>
+
+                                <ul class="package-list">
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>limited space access</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>event support</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Secuirty facility</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Decoration design</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Per day bill</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="card-footer plan">
+                                <a href="#">Choose plan now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card rounded rounded-3  h-100 shadow pt-3">
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>$1200</h3>
+                                    <h4>Corporate</h4>
+                                    <p class="card-text">For most corporate business
+                                        events
+                                    </p>
+                                </div>
+
+                                <ul class="package-list">
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>limited space access</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>event support</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Secuirty facility</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Decoration design</p>
+                                    </li>
+                                    <li class="check-list">
+                                        <i class="far fa-check-circle"></i>
+                                        <p>Per day bill</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="card-footer plan">
+                                <a href="#">Choose plan now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
