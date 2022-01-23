@@ -36,6 +36,8 @@ body{
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 2em;
+    font-family: 'Satisfy',
+    cursive;
 }
 
 /* event navbar  */
@@ -47,7 +49,8 @@ body{
 }
 
 .event-navbar{
-    padding: 1.5em 0;
+    padding: 1em 0;
+    background-color: #F3F1EF;
 }
 
 /* ----banner part-----  */
@@ -82,6 +85,39 @@ body{
 }
 
 
+/* blog part  */
+
+.blog .section-title{
+    padding-bottom: 1.5em;
+}
+
+.blog{
+    background-color: #CBB8A7;
+    padding: 5em 0;
+}
+
+.blog .card-body{
+    background-color: #CBB8A7;
+}
+
+.blog .card{
+    text-align: center;
+}
+
+.blog .card h5{
+    color: #F3F1EF;
+    font-size: 14px;
+}
+
+.blog .card p{
+    font-size: 1.5em;
+    font-family: 'Courgette',
+    cursive;
+}
+
+.blog .card span{
+    font-size: 0.8em;
+}
 /* our Package  */
 .packages .card-body .card-head{
     text-align: center;
@@ -146,7 +182,7 @@ body{
 
 .card:hover{
     transform: translateY(-20px);
-    box-shadow : 0 8px 24px #868F55;
+    box-shadow : 0 8px 24px #CBB8A7;
 }
 
 .off{
