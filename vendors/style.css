@@ -83,10 +83,80 @@ body{
     color: #868F55 ;
 }
 
+/* --shop--  */
+
+.shop-card{
+    overflow: hidden;
+}
+
+.shop .photo{
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.shop .photo-name{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-family: 'Satisfy',
+    cursive;
+    color: #F3F1EF;
+    display: none;
+    padding: 10px 20px;
+    font-size: 3em;
+    transition: 0.5s ease-in-out;
+}
+
+.shop .photo:hover .photo-name{
+    display: block;
+}
+
+.shop img{
+    transition: 0.5s ease-in-out;
+}
+
+.shop img:hover{
+    transform:scale(1.2);
+}
+
+.shop h4{
+    font-size: 1.5em;
+    margin: 1.5em 0;
+    font-family: 'Courgette',
+    cursive;
+}
+
+.shop .price{
+    font-size: 1em;
+    color: #868F55;
+    margin-bottom: 1.5em;
+}
+
+.shop .btn a{
+    background-color: #CBB8A7;
+    color: #fff;
+}
+
+.shop .btn a:hover{
+    background-color: #868F55;
+    color: #F3F1EF;
+}
+
 /* --planner ---  */
 
 .weding-planer{
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.weding-planer .planner-info img{
+    height: 700px;
+}
+
+.planner-info p{
+    font-size: 1em;
+    color: #CBB8A7;
 }
 
 /* blog part  */
