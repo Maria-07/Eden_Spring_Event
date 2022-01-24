@@ -143,6 +143,18 @@ body{
     color: #F3F1EF;
 }
 
+/* ----toast -----  */
+.toast-box{
+    right: 15%;
+}
+
+.toast-box p{
+    color: #868F55;
+    font-size: 1.3em;
+    font-family: 'Courgette',
+    cursive;
+}
+
 /* --planner ---  */
 
 .weding-planer .planner-info img{

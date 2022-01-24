@@ -223,18 +223,24 @@
         </section>
 
 
-    <!-- toasts  -->
+        <!-- toasts  -->
 
-    <div class="container">
-        <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="d-flex">
-                <div class="toast-body text-danger">
-                    hjuighuhdfouihs dfdf 
+        <div class="container">
+            <div class="toast-box position-absolute">
+                <p id="click" class="p-4 d-inline-block rounded rounded-3">
+                    <i class="fas fa-gift"></i> Check It </p>
+
+                <div class="toast">
+                    <div class="toast-header">
+                        <strong class="me-auto">Here Your Gift</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        <p>20% off on next booking</p>
+                    </div>
                 </div>
-                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
         </div>
-    </div>
 
 
         <!-- --- WEDDING PLANNER ---  -->
@@ -319,7 +325,7 @@
                 </h2>
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card rounded rounded-3  roundedh-100 shadow pt-3">
+                        <div class="card rounded rounded-3 roundedh-100 shadow pt-3">
                             <div class="card-body">
                                 <div class="card-head">
                                     <h3>$399</h3>
@@ -652,6 +658,17 @@
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        document.getElementById("click").onclick = function () {
+            var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+            var toastList = toastElList.map(function (toastEl) {
+                return new bootstrap.Toast(toastEl)
+            })
+            toastList.forEach(toast => toast.show())
+        }
+
     </script>
 </body>
 
