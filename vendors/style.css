@@ -145,11 +145,6 @@ body{
 
 /* --planner ---  */
 
-.weding-planer{
-    margin-top: 8%;
-    margin-bottom: 8%;
-}
-
 .weding-planer .planner-info img{
     height: 700px;
 }
@@ -192,6 +187,9 @@ body{
 .blog .card span{
     font-size: 0.8em;
 }
+
+
+
 /* our Package  */
 .packages .card-body .card-head{
     text-align: center;
@@ -284,3 +282,25 @@ body{
     border-radius: 50%;
     padding: 10px 5px 5px;
 }
+
+
+/* happy clients  */
+
+.clients{
+    background-color: #F3F1EF;
+}
+
+.client{
+    padding:10px 20px;
+}
+
+.clients .client .comment{
+    text-align: justify;
+}
+
+.clients .client img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 1em;
+}
+
